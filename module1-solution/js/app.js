@@ -18,7 +18,7 @@
 
       var actualNumber = 0;
       for (var value of $scope.foodList.split(",")) {
-        if (value.length > 0) {
+        if (value.trim().length > 0) {
           actualNumber += 1;
         }
       }
